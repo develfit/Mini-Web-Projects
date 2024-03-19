@@ -1,0 +1,11 @@
+* {
+  text-align: center;
+}
+
+.desc {
+  font-weight: 500;
+}
+
+.desc span {
+  text-decoration: underline;
+}

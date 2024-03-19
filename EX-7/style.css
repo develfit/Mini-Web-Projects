@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.friends {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  column-gap: 16px;
+  
+}
+.container {
+  margin-top: 30px;
+  padding-bottom: 10px;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+}
+
+.data {
+  padding-left: 10px;
+}
+
+img {
+  width: 300px;
+  height: 280px;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 28px;
+}
+.mutual {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  column-gap: 5px;
+  align-items: center;
+}
+.mutual img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+p {
+  margin-top: 3px;
+  color: rgb(96,96,96);
+  
+}
+
+button {
+  margin-top: 15px;
+  background-color: #4267b3;
+  padding: 10px 15px;
+  color: white;
+  border: none;
+  font-weight: bold;
+  border-radius: 2px;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+}
